@@ -1,0 +1,12 @@
+{
+  "name": "student-information-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"nodemon ./server/index.js\" \"cd client && pnpm run dev\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,5 @@
+input{
+    border-radius: 0 !important;
+    border: none !important;
+    border-bottom: 1px var(--color-1) solid !important;
+}

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+#root {
+  --color-1: #437c90;
+  --color-2: #2fbf71;
+  --color-3: #f26df9;
+  --color-4: #ffb140;
+  --color-5: #f1fffa;
+  --nav-height: 75px;
+  --sidebar-width: 300px;
+}
+
+.color-primary {
+  color: var(--color-1);
+}
+
+.main-interface {
+  background-color: var(--color-5);
+  min-height: calc(100vh - var(--nav-height));
+}
+
+.btnSubmit {
+  background-color: var(--color-1) !important;
+  color: var(--color-5);
+}
+
+.btnSubmit:hover {
+  color: var(--color-1);
+  background-color: var(--color-5) !important;
+}
+
+#sidebar {
+  width: var(--sidebar-width);
+}
+
+#interface {
+  width: calc(100vw - var(--sidebar-width));
+}
+
+.nav-item {
+  color: var(--color-1);
+  text-decoration: none;
+}
+
+.nav-item .bi {
+  padding: 0px 15px 0px 0px;
+  font-size: 1.25rem;
+}
+
+.nav-item:hover {
+  color: var(--color-1) !important;
+  background-color: white !important;
+  transition: 0.1s ease-in !important;
+}
+
+.navbar {
+  height: var(--nav-height);
+}
+
+.card {
+  border-radius: 0;
+  border: none;
+}
+
+.profile-image-card {
+  width: 300px;
+  height: fit-content;
+}
+
+.card .profile-image {
+  border-radius: 50%;
+}
