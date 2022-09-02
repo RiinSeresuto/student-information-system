@@ -17,6 +17,13 @@
 #### Installing Node and npm
 To install Node and npm, go to [this page](https://nodejs.org/en/download/) to download the installer and install. Node and npm will be installed.
 
+#### Install nodemon
+Run the command below to install [nodemon](https://www.npmjs.com/package/nodemon). Note that Node and npm must be installed first before installing pnpm.
+
+```
+npm install -g nodemon
+```
+
 #### Installing pnpm (Optional)
 Run the command below to install pnpm. Note that Node and npm must be installed first before installing pnpm.
 
@@ -24,7 +31,8 @@ Run the command below to install pnpm. Note that Node and npm must be installed 
 npm install -g pnpm
 ```
 
-Note: Check [here](https://pnpm.io/installation) for other installation methods
+> **Note**
+> Check [here](https://pnpm.io/installation) for other installation methods
 
 #### Installing MySQL
 Install XAMPP from [here](https://www.apachefriends.org/download.html) or Laragon from [here](https://laragon.org/download/index.html) and add phpmyadmin
