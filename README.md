@@ -15,10 +15,10 @@
 - Git
 
 #### Installing Node and npm
-To install Node and npm, go to [this page](https://nodejs.org/en/download/) to download the installer and install. Node and npm will be installed.
+To install Node and npm, go to [this page](https://nodejs.org/en/download/) to download the installer and install it. Node and npm will be installed.
 
 #### Install nodemon
-Run the command below to install [nodemon](https://www.npmjs.com/package/nodemon). Note that Node and npm must be installed first before installing pnpm.
+Run the command below to install [nodemon](https://www.npmjs.com/package/nodemon).
 
 ```
 npm install -g nodemon
@@ -42,18 +42,18 @@ Download, install, and follow the installation instructions for Git from [here](
 
 
 ## Getting the Source Code
-On you chosen directory, clone this repository by running the following command:
+On your chosen directory, clone this repository by running the following command:
 
 ```
 git clone https://github.com/RiinSeresuto/student-information-system.git
 ```
 
 ## Creating database
-1. Run XAMPP or Laragon and run phpmyadmin on you browser and create a new database.
+1. Run XAMPP or Laragon and run phpmyadmin on your browser and create a new database.
 2. Open your newly created database and import `studentInformationSystem.sql`
 
 ## Configuring the server
-Open `./server/index.js` and edit lines 11 to 16 base on your configuration.
+Open `./server/index.js` and edit lines 11 to 16 based on your configuration.
 
 ```js
 const connection = mysql.createConnection({
@@ -66,7 +66,7 @@ const connection = mysql.createConnection({
 
 `"localhost"`, `"root"`, and none is the default configuration for `host`, `user`, and `password`, respectively.
 
-## Installing the dependences
+## Installing the dependencies
 #### Go to `./client` directory and run the command below.
 
 if you are using npm
@@ -108,6 +108,3 @@ pnpm install
 | Student | jamie@student.school.com | pass |
 | Teacher | teach@email.com | pass |
 | Teacher | madam@email.com | pass |
-
-
-
